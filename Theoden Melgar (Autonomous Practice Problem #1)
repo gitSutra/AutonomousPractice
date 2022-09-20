@@ -26,7 +26,7 @@ public class AutonomousPractice1 extends LinearOpMode {
     right1 = hardwareMap.get(DcMotor, "rightMotor1");
     right1 = hardwareMap.get(DcMotor, "rightMotor2");
     
-    int tgt = tickstoDistance(700);
+    int tgt = tickstoDistance(740);
     
     left1.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
     left2.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
