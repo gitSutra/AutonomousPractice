@@ -57,3 +57,4 @@ public class AutonomousPractice1 extends LinearOpMode {
   public int ticksToDistance(int distance){
     return (int)distance*((gearReduction*motorCounts)/wheelCircumference);
   }
+}
